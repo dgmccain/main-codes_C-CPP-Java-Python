@@ -1,0 +1,7 @@
+Source Program:
+const z;
+var x;
+begin
+ x := 3;
+end.
+Error: Error number 4: missing const initial value

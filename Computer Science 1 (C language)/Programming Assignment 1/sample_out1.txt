@@ -1,0 +1,22 @@
+Store #1:
+yogurt 8.444444
+chocolate 4.444444
+banana 2.222222
+mango 12.888889
+spinach 2.000000
+
+Store #2:
+yogurt 6.000000
+banana 3.000000
+kiwi 3.000000
+strawberry 6.000000
+
+Store #3:
+yogurt 8.666667
+chocolate 3.333333
+banana 3.333333
+mango 8.666667
+spinach 1.000000
+kiwi 1.666667
+strawberry 3.333333
+

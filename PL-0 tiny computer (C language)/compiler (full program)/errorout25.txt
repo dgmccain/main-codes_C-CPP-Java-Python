@@ -1,0 +1,7 @@
+Source Program:
+const z = 3;
+var x, yzidenttoolong;
+begin
+ x := 5;
+end.
+Error: Error number 25: identifier too long

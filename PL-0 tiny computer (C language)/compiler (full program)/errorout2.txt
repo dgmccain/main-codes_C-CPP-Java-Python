@@ -1,0 +1,7 @@
+Source Program:
+const;
+var x;
+begin
+ x := 3;
+end.
+Error: Error number 2: missing const identifier

@@ -1,0 +1,8 @@
+Source Program:
+const z = 3;
+var x, 7y;
+begin
+ x := 5;
+ read;
+end.
+Error: Error number 27: identifier starts with digit

@@ -1,0 +1,2 @@
+name|movie title|movie price|quantity of tickets purchased| total cost
+David McCain|Shazam|$8.11|6|$48.66

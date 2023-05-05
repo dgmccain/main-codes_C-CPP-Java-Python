@@ -1,0 +1,35 @@
+Initial nonempty lists status
+1 5 4 3 2 1 
+2 5 4 3 2 1 
+3 5 4 3 2 1 
+
+After ordering nonempty lists status
+1 1 2 3 4 5 
+2 1 2 3 4 5 
+3 1 2 3 4 5 
+
+Phase1 execution
+
+Line# 1
+Monster# 1 executed
+Monster# 2 executed
+Monster# 3 executed
+Monster# 4 executed
+
+Line# 2
+Monster# 1 executed
+Monster# 2 executed
+Monster# 3 executed
+Monster# 4 executed
+
+Line# 3
+Monster# 1 executed
+Monster# 2 executed
+Monster# 3 executed
+Monster# 4 executed
+
+Phase2 execution
+Executed Monster 5 from line 1
+Executed Monster 5 from line 2
+
+Monster 5 from line 3 will survive

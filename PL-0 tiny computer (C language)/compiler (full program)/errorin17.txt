@@ -1,0 +1,6 @@
+const z = 3;
+var x, y, x;
+begin
+ x := 5;
+ y := z+1;
+end.

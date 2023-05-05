@@ -1,0 +1,54 @@
+(0 10) (10 0) (10 10) (15 15) (0 0) (-5 -5)
+
+//permutation variations for last (6th) coordinate cycled
+(0 10) && (10 0)   (10 10) && (-5 -5)  (0 0) && (15 15)
+(0 10) && (10 0)   (-5 -5) && (15 15)  (0 0) && (10 10)
+(0 10) && (-5 -5)   (10 10) && (15 15)  (0 0) && (10 0)
+
+//permutation variations for 5th coordinate cycled
+(0 10) && (10 0)   (0 0) && (15 15)  (10 10) && (-5 -5)
+(0 10) && (0 0)   (10 10) && (15 15)  (10 0) && (-5 -5)
+
+//permutation variations for 4th coordinate cycled
+(0 10) && (15 15)   (10 10) && (10 0)  (0 0) && (-5 -5)
+
+//permutation variations for 3rd coordinate cycled
+(0 10) && (10 10)   (10 0) && (15 15)  (0 0) && (-5 -5)
+
+//permutation variations for 2nd coordinate cycled
+	- redundant
+
+//permutation variations for 1st cycle
+	- redundant
+
+********************************
+NEW main method for permutation
+********************************
+
+//original data
+(0 10) && (10 0)   (10 10) && (15 15)  (0 0) && (-5 -5)
+
+//permutation variations for 1st coordinate cycled
+	- redundant
+
+//permutation variations for 2nd coordinate cycled
+(0 10) && (10 10)   (10 0) && (15 15)  (0 0) && (-5 -5)
+(0 10) && (10 10)   (15 15) && (10 0)  (0 0) && (-5 -5) X
+(0 10) && (10 10)   (15 15) && (0 0)  (10 0) && (-5 -5)
+(0 10) && (10 10)   (15 15) && (0 0)  (-5 -5) && (10 0) X
+
+//permutation variations for 3rd coordinate cycled
+(0 10) && (10 0)   (10 10) && (15 15)  (0 0) && (-5 -5) //original
+(0 10) && (10 0)   (15 15) && (10 10)  (0 0) && (-5 -5)
+(0 10) && (10 0)   (0 0) && (15 15)  (10 10) && (-5 -5)
+(0 10) && (10 0)   (-5 -5) && (15 15)  (0 0) && (10 10)
+
+//permutation variations for 4th coordinate cycled
+(0 10) && (10 0)   (10 10) && (0 0)    (15 15) && (-5 -5)
+(0 10) && (10 0)   (10 10) && (-5 -5)  (0 0) && (15 15)
+
+//permutation variations for 5th coordinate cycled
+(0 10) && (10 0)   (10 10) && (15 15)  (0 0) && (-5 -5)
+
+//permutation variations for 6th coordinate cycled
+	- redundant

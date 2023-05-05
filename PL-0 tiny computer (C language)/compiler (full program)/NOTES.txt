@@ -1,0 +1,5 @@
+still need to fix: variables declared within procedure are not currently being
+checked if they are accessible. Variable from Main is always accessed instead
+of adding a new variable identifier locally. Mark needs to be implemented correctly
+instead of pre-assigning all variables to 1 (should initially be 0 at start of block
+and be set to 1 at end of block). Lexicographical level is tracked correctly though.

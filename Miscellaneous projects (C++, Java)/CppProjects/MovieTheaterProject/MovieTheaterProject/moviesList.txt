@@ -1,0 +1,3 @@
+movie title|movie rating|movie genre|movie score (from 1-10)|movie runtime (in minutes)|movie price
+Shazam|PG-13|Action|7.1|132|$8.11
+Avengers: Infinity War|PG-13|Action|8.4|182|$11.49

@@ -1,0 +1,11 @@
+var txt;
+var person = prompt("Please enter your name:", "Name Goes Here");
+  if (person == null || person == "") {
+    txt = "User cancelled the prompt.";
+  } else {
+    txt = "Hello " + person + "! How are you today?";
+var ans;
+if (confirm("Are you sure?")) {
+txt = "Awesome to meet you " + person + "!"; } else {
+txt = "Unfortunate..."; }
+  }

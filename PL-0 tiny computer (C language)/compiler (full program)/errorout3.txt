@@ -1,0 +1,6 @@
+Source Program:
+const x = 4, x = 3;
+begin
+ x := 3;
+end.
+Error: Error number 3: const identifier already declared

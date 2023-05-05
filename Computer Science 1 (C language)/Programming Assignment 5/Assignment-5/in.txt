@@ -1,0 +1,24 @@
+23
+1 mat
+1 eat
+1 sip
+2 mat
+2 eat
+2 apple
+1 mat
+1 kale
+1 nail
+1 kale
+1 tree
+1 mat
+2 mat
+2 nail
+1 nail
+1 nail
+1 tree
+1 tree
+2 tree
+1 cat
+2 cat
+1 nail
+2 nail

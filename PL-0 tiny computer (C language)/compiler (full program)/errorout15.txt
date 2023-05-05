@@ -1,0 +1,8 @@
+Source Program:
+const z = 3;
+var x, y;
+begin
+ x := 5;
+ y := (z+-4);
+end.
+Error: Error number 15: input needs to be ident, num, or appropriate parenthesis

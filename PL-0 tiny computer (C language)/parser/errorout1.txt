@@ -1,0 +1,6 @@
+Source Program:
+var x;
+begin
+ x := 3;
+end
+Error: missing period

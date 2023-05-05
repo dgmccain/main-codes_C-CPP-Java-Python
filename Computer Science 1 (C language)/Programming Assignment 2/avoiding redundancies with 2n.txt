@@ -1,0 +1,16 @@
+(0 1) (2 3) (4 5) (6 7)
+
+//permutation variations for last (4th) coordinate cycled
+(0 1) && (2 3)     (4 5) && (6 7)
+(0 1) && (6 7)     (4 5) && (2 3)
+(6 7) && (2 3)     (4 5) && (0 1)
+
+//permutation variations for 3rd coordinate cycled
+(0 1) && (4 5)     (2 3) && (6 7)
+(4 5) && (6 7)     (0 1) && (2 3)
+
+//permutation variations for 2nd coordinate cycled
+	- redundant
+
+//permutation variations for 1st cycle
+	- redundant

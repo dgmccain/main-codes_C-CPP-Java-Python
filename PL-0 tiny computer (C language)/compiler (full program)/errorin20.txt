@@ -1,0 +1,14 @@
+const m = 7, n = 85;
+var i,x,y,z,q,r;
+procedure mult;
+procedure mult;
+ var a,b;
+ begin
+  a := x, b := y, z := 0;
+ end;
+
+begin
+ x := m;
+ y := n;
+ call mult;
+end.

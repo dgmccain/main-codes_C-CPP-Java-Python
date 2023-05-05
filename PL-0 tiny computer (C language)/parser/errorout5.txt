@@ -1,0 +1,7 @@
+Source Program:
+const z = a;
+var x, y;
+begin
+ x := 5;
+end.
+Error: const value must be a number

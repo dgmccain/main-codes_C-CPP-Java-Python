@@ -1,0 +1,7 @@
+Source Program:
+const z = 3;
+var x, y;
+begin
+ a := 5;
+end.
+Error: Error number 7: identifier not found in symbol table

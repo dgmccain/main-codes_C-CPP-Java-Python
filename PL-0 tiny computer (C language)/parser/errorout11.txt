@@ -1,0 +1,9 @@
+Source Program:
+const z = 3;
+var x, y;
+begin
+ x := 5;
+ if x > z
+  y := 4;
+end.
+Error: missing then symbol

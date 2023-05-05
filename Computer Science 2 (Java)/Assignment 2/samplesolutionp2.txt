@@ -1,0 +1,5 @@
+maze1.txt passed!
+maze2.txt passed!
+maze3.txt passed!
+maze4.txt passed!
+maze5.txt passed!

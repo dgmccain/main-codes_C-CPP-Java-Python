@@ -1,0 +1,4 @@
+var x;
+x := 7;
+if x==2 then x:=3 else x:= 4;
+write x+ 1.

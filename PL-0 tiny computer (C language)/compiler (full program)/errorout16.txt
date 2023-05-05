@@ -1,0 +1,7 @@
+Source Program:
+const z = 3;
+var x, ;
+begin
+ x := z;
+end.
+Error: Error number 16: missing var identifier

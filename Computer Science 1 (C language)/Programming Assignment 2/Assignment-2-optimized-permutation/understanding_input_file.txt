@@ -1,0 +1,28 @@
+2 //number of test cases
+1 //n
+19 -18 //tree #1
+16 -14 //tree #2
+3 //n
+0 10 //tree #1
+10 0 //tree #2
+10 10 //tree #3
+15 15 //tree #4
+0 0 //tree #5
+-5 -5 //tree #6
+
+//*notice* - the number of trees == 2n
+
+//*calculation notes* - the length of rope ladder between treetops is:
+  //sqrt((Xi - Xj)^2 + (Yi - Yj)^2)
+//find the minimum sum of rope ladder distances (between the trees)
+//*note* - round to 3 decimal places
+
+//example of calculation from first case (top of file):
+  //sqrt((19-16)^2 + (-18 - -14)^2)
+  //=sqrt((3)^2 + (-4)^2)
+  //=sqrt(9 + 16)
+  //=sqrt(25)
+  //=5.000
+
+//review recordings for "fast exponentusing recursion" and
+//"recursion within a loop and permutation" for runtime help...

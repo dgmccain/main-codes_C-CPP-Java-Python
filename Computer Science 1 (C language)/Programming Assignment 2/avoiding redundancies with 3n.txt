@@ -1,0 +1,25 @@
+(0 1) (2 3) (4 5) (6 7) (8 9) (10 11)
+
+//original
+(0 1) && (2 3)      (4 5) && (6 7)     (8 9) && (10 11)
+
+//permutation variations for last (6th) coordinate cycled
+(0 1) && (2 3)      (4 5) && (10 11)   (8 9) && (6 7)
+(0 1) && (2 3)      (10 11) && (6 7)   (8 9) && (4 5)
+(0 1) && (10 11)    (4 5) && (6 7)     (8 9) && (2 3)
+
+//permutation variations for 5th coordinate cycled
+(0 1) && (2 3)      (8 9) && (6 7)     (4 5) && (10 11)
+(0 1) && (8 9)      (4 5) && (6 7)     (2 3) && (10 11)
+
+//permutation variations for 4th coordinate cycled
+(0 1) && (6 7)      (4 5) && (2 3)     (8 9) && (10 11)
+
+//permutation variations for 3rd coordinate cycled
+(0 1) && (4 5)      (2 3) && (6 7)     (8 9) && (10 11)
+
+//permutation variations for 2nd coordinate cycled
+	- redundant
+
+//permutation variations for 1st cycle
+	- redundant

@@ -1,0 +1,22 @@
+
+
+Key matrix:
+
+1  2  3  4  
+5  6  7  8  
+9  8  8  7  
+9  0  8  4  
+
+
+Plaintext:
+
+vonneumannwasachildprodigywhenhewassixyearsoldhecoulddividetwoeightdigitnumbersi
+nhisheadandcouldconverseinancientgreekwhenthesixyearoldvonneumanncaughthismother
+staringaimlesslyheaskedherwhatareyoucalculatingx
+
+
+Ciphertext:
+
+kuchcqgcblhhaetyvndaiuhbsudypxqesqaymoiuocoscyzpekdonxctyebyqaiclvxkqyfeprqjuaie
+tvztbfmxrlmgvffsxpryeugoiohueixyuwtloedglbdiaepkwudyznvarlymsqdytdnpbbzagguqjpol
+ucrwaeqqdnyubzqijvnfdvnmcuhgcqlqsgmurzqkoglwogve

@@ -1,0 +1,5 @@
+const z = 3;
+var x, yzidenttoolong;
+begin
+ x := 5;
+end.

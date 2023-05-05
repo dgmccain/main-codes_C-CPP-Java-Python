@@ -1,0 +1,8 @@
+Source Program:
+const z = 3;
+var x, y;
+begin
+ x := 5;
+ while x > 5;
+end.
+Error: Error number 23: missing do symbol

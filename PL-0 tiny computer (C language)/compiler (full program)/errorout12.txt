@@ -1,0 +1,16 @@
+Source Program:
+const m = 7, n = 85;
+var i,x,y,z,q,r;
+procedure mult;
+ var a,b;
+ begin
+  a := x, b := y, z := 0;
+  while b > 0 do
+ end;
+
+begin
+ x := m;
+ y := n;
+ call mult;
+end.
+Error: Error number 10: missing end symbol

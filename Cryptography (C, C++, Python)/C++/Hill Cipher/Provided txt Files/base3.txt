@@ -1,0 +1,31 @@
+
+
+Key matrix:
+
+1  1  6  2  7  
+3  3  1  4  5  
+5  2  7  8  9  
+7  8  2  5  3  
+3  6  2  1  9  
+
+
+Plaintext:
+
+rotormachinesfromthesandsweremechanicalmarvelsthefirstgenerationelectronicsystem
+swerequirkydeviceswithcantankerouspunchedcardreadersforloadingkeysandfailurepron
+etrickytomaintainvacuumtubecircuitrylatethcenturysystemsarejustblackboxesoftenli
+terallyinfacttheyarecalledblackersinnsaparlancebecausetheyconvertplaintextclassi
+fiedsignalsredintoencryptedunclassifiedciphertextsignalsblacktheytypicallyhaveel
+ectricalconnectorsfortheredsignalstheblacksignalselectricalpowerandaportforloadi
+ngkeysxxxx
+
+
+Ciphertext:
+
+gtracqcurpuscbxaphtnundnlmpnqcjmitzmeghzunaxnsdupxfrqdbxtcrljllqacaszzxfswoonnqs
+wewrngamnftberjgiciezpgympaqnzgamqqjtyjdiuabndrxwkerfeyjxxukvvfrdhaqayzsqdjgnifh
+zyzaeadjqwujzdpfqxagewklnwekektbvycxtszlhfmsqdikhhonnqsjckzrxkmwugmafdqyqcgxkqki
+uljygoiwbrvgoocmqgfboddzxghifdapdqwfpoqcsxuphitxwcjhfntxfpznrjatxdtsmcfwsaidhhtd
+npvucngihdrfoxfhjmsqocjselzchxdhhtdfnhyokvsbznygwwngihdvafgwnwvqoheslxstqrtaitvd
+cpbjvorvkafdukmntgzzxitsyrxkqyojpaqnaiigwmoginmkhlcaszzhthqaqysdrowfyqfuhmejxxuk
+vvfrdwpmua

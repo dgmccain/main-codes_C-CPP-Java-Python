@@ -1,0 +1,8 @@
+Source Program:
+const z = 3;
+var x, y
+begin
+ x := 5;
+ y := z+1;
+end.
+Error: Error number 18: missing semicolon after var declaration

@@ -1,0 +1,16 @@
+Source Program:
+const m = 7, n = 85;
+var i,x,y,z,q,r;
+procedure mult;
+ var a,b;
+ call;
+ begin
+  a := x, b := y, z := 0;
+ end;
+
+begin
+ x := m;
+ y := n;
+ call mult;
+end.
+Error: Error number 22: missing call identifier

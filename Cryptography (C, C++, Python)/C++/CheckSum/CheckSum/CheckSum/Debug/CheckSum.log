@@ -1,0 +1,3 @@
+﻿  checksum.cpp
+c:\users\david\desktop\school\ucf\school summer - 2020\cis 3360\homework 2\checksum\checksum\checksum.cpp(138): warning C4305: '-=': truncation from '__int64' to 'unsigned long'
+  CheckSum.vcxproj -> C:\Users\david\Desktop\School\UCF\School Summer - 2020\CIS 3360\Homework 2\CheckSum\Debug\CheckSum.exe

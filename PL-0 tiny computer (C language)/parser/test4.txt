@@ -1,0 +1,6 @@
+var else, procedure, call;
+begin
+else:= 1;
+call:= 2;
+procedure:= else + call
+end.

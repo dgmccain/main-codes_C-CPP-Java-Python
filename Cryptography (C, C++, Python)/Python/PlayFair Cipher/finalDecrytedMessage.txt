@@ -1,0 +1,14 @@
+    ciphertext:
+qknvbdradnrlbexrbmzilqkzenqkpbgqvnzwbgbnlazkfvnfybblqhybqhenoqnzzspdpnlqkzenlwybkvlwbaimfdkeanliznrlbebmfdlubnlanzhaebkokdblfdsfmrybsvzitzrfrlnihspczpyzmtosnednmlfdmqhsybmrmgnhnzmdglizrttqchqlqgpfqknzmdgmwskeenwtvxpttmnpmdbnptenarqlowqpnffbzkkqbpybbmfdogdmnffkbdsgmqnpbltlqlfdfbzkkqmqtqcyaeznfnbqkqqhlkqhzbbrixlwyzmtmcebiqfdrttqht
+
+    plaintext:
+THEMAINREASONIWANTEDTOGIVETHISHOMEWORKASQSIGNMENTISTHATIHAVEMOREPRIZESTOGIVEOUTIFYOUARETHEFIRSTPERSONINTHECLASQSREADINGTHISTHENCONTINUEDOINGSOBECAUSEIWILQLREVEALTHELOCATIONOFAFREQECODEBOQOKGOTOHECTHREQEFOURFIVEYOUWILQLSEQEASILVERNOTGOLDENKNIGHTSITINTHEGREQENCHAIRCLOSESTQTOTHEKNIGHTLOQOKUNDERNEATHTHATCHAIRANDYOUWILQLFINDTHEBOQOKQ
+
+    Table used:
+***********************
+|  x   y   u   v   w  |
+|  d  i/j  p   e   z  |
+|  a   b   s   n   r  |
+|  h   k   c   f   g  |
+|  q   t   l   m   o  |
+***********************

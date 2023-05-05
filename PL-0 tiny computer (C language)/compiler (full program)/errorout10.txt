@@ -1,0 +1,7 @@
+Source Program:
+const z = 3;
+var x, y;
+begin
+ x := 5;
+.
+Error: Error number 10: missing end symbol

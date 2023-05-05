@@ -1,0 +1,6 @@
+const z = 3;
+var x, 7y;
+begin
+ x := 5;
+ read;
+end.

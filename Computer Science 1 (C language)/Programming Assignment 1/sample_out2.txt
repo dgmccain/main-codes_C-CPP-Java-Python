@@ -1,0 +1,61 @@
+Store #1:
+yogurt 34.000000
+bananas 17.000000
+kiwis 17.000000
+strawberries 34.000000
+
+Store #2:
+yogurt 51.515152
+oranges 36.363636
+pineapple 54.545455
+bananas 89.393939
+whey 90.909091
+fruit_punch 109.090909
+kiwis 143.939394
+strawberries 178.787879
+ice 163.636364
+protein 181.818182
+
+Store #3:
+oranges 8.333333
+pineapple 4.166667
+bananas 3.714286
+strawberries 9.285714
+protein 12.500000
+
+Store #4:
+yogurt 17.121212
+oranges 32.159091
+pineapple 11.780303
+bananas 10.151515
+whey 54.356061
+fruit_punch 13.143939
+kiwis 11.515152
+strawberries 20.303030
+ice 24.924242
+protein 4.545455
+
+Store #5:
+yogurt 1.363636
+oranges 140.227273
+pineapple 70.757576
+bananas 5.454545
+whey 27.651515
+fruit_punch 12.348485
+kiwis 9.545455
+strawberries 10.909091
+ice 20.606061
+protein 201.136364
+
+Store #6:
+yogurt 34.242424
+oranges 93.484848
+pineapple 44.393939
+bananas 34.588745
+whey 46.212121
+fruit_punch 13.787879
+kiwis 23.030303
+strawberries 76.320346
+ice 24.848485
+protein 109.090909
+
