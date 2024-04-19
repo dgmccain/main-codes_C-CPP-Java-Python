@@ -13,16 +13,12 @@
     </ul>
     <form action="/add" method="post">
         <label for="name">Item Name:</label>
-        <input type="text" id="name" name="name">
+        <input type="text" id="name" name="name" required>
         <label for="quantity">Quantity:</label>
-        <input type="number" id="quantity" name="quantity">
+        <input type="number" id="quantity" name="quantity" required>
         <input type="submit" value="Add Item">
     </form>
     <a href="/remove">Remove an item</a>
     <a href="/edit">Edit an item</a>
 </body>
 </html>
-
-
-
-
