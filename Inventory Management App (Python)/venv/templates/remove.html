@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Remove Item</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Remove Item</h1>
+    <ul>
+    {% for name, quantity in inventory.items() %}
+        <li>{{ name }}: {{ quantity }}</li>
+    {% endfor %}
+    </ul>
+    <form action="/remove" method="post">
+        <label for="name">Item Name:</label>
+        <input type="text" id="name" name="name">
+        <input type="submit" value="Remove Item">
+    </form>
+    <a href="/">Back to Inventory</a>
+</body>
+</html>
