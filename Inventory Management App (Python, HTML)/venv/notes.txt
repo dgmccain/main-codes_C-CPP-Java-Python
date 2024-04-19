@@ -1,0 +1,19 @@
+commands for installing virtual environment setup...
+pip install virtualenv
+virtualenv venv
+^^^note: "venv" can be named whatever you want to name the folder
+
+commands for installing necessary Python frameworks...
+pip install flask
+pip install flask_sqlalchemy
+
+commands for running Python app within virtual environment...
+venv\Scripts\activate
+python app.py
+
+run the following command if the virtual environment is not running in powershell...
+Set-ExecutionPolicy Unrestricted -Scope Process
+
+
+
+***NOTE: change debug=False within app.py before deployment!!!

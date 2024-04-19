@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Edit Inventory</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Edit Inventory</h1>
+    <ul>
+    {% for name, quantity in inventory.items() %}
+        <li>{{ name }}: {{ quantity }}</li>
+    {% endfor %}
+    </ul>
+    <form action="/edit" method="post">
+        <label for="name">Item Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="quantity">New Quantity:</label>
+        <input type="number" id="quantity" name="quantity" required>
+        <input type="submit" value="Update Item">
+    </form>
+    <a href="/">Back to Inventory</a>
+</body>
+</html>
