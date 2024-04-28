@@ -1,5 +1,0 @@
-for in1.txt, I tested an empty input file to make sure that the program would not crash
-
-for in2.txt, I tested the most basic case for the BST. in2.txt only contains 3 tests: adding a word, searching for an existing word, and searching for a non-existent word.
-
-for in3.txt, I tested a standard input of words. I also checked for hyphenated words and case-sensitive words as well.
