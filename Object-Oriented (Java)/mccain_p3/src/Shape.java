@@ -1,6 +1,0 @@
-public abstract class Shape { //abstract class...
-
-    //abstract methods here...
-    public abstract String getName();
-    public abstract double getArea();
-}
