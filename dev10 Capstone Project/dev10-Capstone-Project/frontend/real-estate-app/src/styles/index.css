@@ -1,0 +1,516 @@
+/* Global Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  font-size: 1.5rem !important;
+  margin-bottom: 1rem;
+  text-decoration: underline;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.extra-space-div {
+  margin-bottom: 8rem;
+}
+
+.divider {
+  margin: 2rem 0;
+}
+
+.form-group label {
+  font-weight: bold;
+}
+
+.form-group {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+/* General container styles */
+.container {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 2rem 0;
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  max-width: 1200px;
+  margin: 2rem auto; /* Center align the table */
+  border-collapse: collapse;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+thead {
+  background-color: #007bff;
+  color: white;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+th {
+  font-size: 1.2rem;
+}
+
+td {
+  font-size: 1rem;
+}
+
+/* Bullet Points Styles */
+.bullet-points {
+  list-style-type: disc;
+  padding-left: 40px;
+  font-size: 1rem;
+  color: #333; /* Dark text color for better readability */
+}
+
+.bullet-points li {
+  margin-bottom: 0.5rem; /* Space between list items */
+}
+
+/* Alerts */
+.alert {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+}
+
+.alert-danger {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.alert-success {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+/* Button Styles */
+button {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  color: white;
+}
+
+.btn-primary:hover,
+.btn-secondary:hover {
+  background-color: #0056b3;
+}
+
+.btn-outline-primary {
+  border: 1px solid #007bff;
+  color: #007bff;
+}
+
+.btn-outline-primary:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Pagination Styles */
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 10px; /* Adds space between buttons */
+}
+
+.pagination-buttons button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.pagination-buttons button:hover {
+  background-color: #0056b3;
+}
+
+.pagination-buttons .active-page {
+  background-color: #343a40;
+  color: white;
+  font-weight: bold;
+}
+
+/* Loading & Empty States */
+.loading {
+  font-size: 1.25rem;
+  color: #007bff;
+}
+
+.empty-state {
+  font-size: 1.25rem;
+  color: #6c757d;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #343a40; /* Dark background (equivalent to bg-dark) */
+}
+
+/* Customize the links inside the navbar */
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #ffc107; /* Change link color on hover */
+}
+
+.navbar a:focus {
+  color: #ffc107;
+  text-decoration: underline;
+}
+
+/* Customization for the Login button */
+.custom-login-btn {
+  background-color: white !important; /* Your desired background color */
+  color: rgb(0, 0, 0) !important; /* Ensure the text color is readable */
+  border: 2px solid black !important; /* Define a black border with 2px width */
+  border-radius: 5px; /* Round the corners of the button */
+}
+
+.custom-login-btn:hover,
+.custom-login-btn:focus {
+  background-color: #ffc107 !important; /* Change the background color on hover */
+}
+
+/* Base styles for username display */
+.username-display {
+  border: none; /* No border by default */
+  transition: border 0.3s ease; /* Smooth transition for border */
+}
+
+.username-display.blue:hover {
+  border: 2px solid #00ffff; /* Add border only on hover */
+  animation: glowBlue 1.5s infinite alternate; /* Smooth fading glow */
+}
+
+.username-display.red:hover {
+  border: 2px solid #ff6666; /* Add border only on hover */
+  animation: glowRed 1.5s infinite alternate; /* Smooth fading glow */
+}
+
+.username-display.green:hover {
+  border: 2px solid #66ff99; /* Add border only on hover */
+  animation: glowGreen 1.5s infinite alternate; /* Smooth fading glow */
+}
+
+@keyframes glowBlue {
+  0% {
+    box-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff, 0 0 20px #00ffff;
+  }
+  100% {
+    box-shadow: 0 0 15px #1e00ff, 0 0 30px #00ffff, 0 0 45px #00ffff;
+  }
+}
+
+@keyframes glowRed {
+  0% {
+    box-shadow: 0 0 5px #ff6666, 0 0 10px #ff6666, 0 0 20px #ff9999;
+  }
+  100% {
+    box-shadow: 0 0 15px #ff0033, 0 0 30px #ff6666, 0 0 45px #ff9999;
+  }
+}
+
+@keyframes glowGreen {
+  0% {
+    box-shadow: 0 0 5px #66ff99, 0 0 10px #66ff99, 0 0 20px #99ffcc;
+  }
+  100% {
+    box-shadow: 0 0 15px #00ff33, 0 0 30px #66ff99, 0 0 45px #99ffcc;
+  }
+}
+
+/* Change the color of the navbar collapse button */
+.navbar-toggler-icon {
+  background-color: white; /* Change this to your desired color */
+  border-radius: 5px;
+}
+
+/* Login, Register, and form Styles */
+.login-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 2rem;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-label {
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  margin: 0.5rem 0 1.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.mb-3 {
+  margin-bottom: 1.5rem;
+}
+
+/* Properties List Styles */
+.properties-list-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+.properties-table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Price Prediction Styles */
+.price-prediction-container {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-bottom: 8rem;
+}
+
+.price-prediction-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
+.price-form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 0.25rem; /* Reduced gap to decrease space between labels and input/select */
+  margin-bottom: 0.5rem; /* Adjusted margin-bottom for closer spacing */
+}
+
+.price-form-group label {
+  font-weight: bold;
+  text-align: center;
+  margin: 0; /* Removed margin */
+}
+
+.price-form-group input,
+.price-form-group select {
+  width: 56%; /* Adjusted width for both input and select */
+  border-radius: 5px; /* Rounded border */
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  margin: 0; /* Removed margin */
+}
+
+.price-form-group select {
+  padding: 0.15rem; /* Adjusted padding for select */
+  text-align: center;
+  border-radius: 20px;
+}
+
+.price-form-group select:hover {
+  background-image: linear-gradient(45deg, transparent 50%, gray 50%),
+    linear-gradient(135deg, gray 50%, transparent 50%);
+  /* If both calc(1em -3px) are changed to calc(1em -2px) then the arrow moves 1px down */
+  background-position: calc(100% - 20px) calc(1em - 3px),
+    calc(100% - 15px) calc(1em - 3px);
+  background-size: 5px 5px, 5px 5px;
+  background-repeat: no-repeat;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.price-form-group input:focus,
+.price-form-group select:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.submit-price-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-price-btn:hover {
+  background-color: #0056b3;
+}
+
+.prediction-result {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Price History Styles */
+.price-history-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+.price-history-table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* About Page Styles */
+.about-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-top: 2rem;
+  padding-bottom: 0; /* Remove extra padding at the bottom */
+}
+
+.about-text {
+  text-align: left;
+  padding-bottom: 1em;
+}
+
+/* Contact Styles */
+.contact-container {
+  margin-top: 2rem;
+}
+
+.contact-form {
+  max-width: 800px;
+  margin: 0 auto; /* Centers the form horizontally */
+  text-align: left;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Footer Styles */
+footer {
+  padding: 1rem;
+  text-align: right;
+  font-size: 1rem;
+  color: #333;
+  pointer-events: none; /* Make the footer non-interactive so buttons can be clicked through it */
+}
